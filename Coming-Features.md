@@ -2,9 +2,12 @@
 Please help if you can
 - [ ] Fire a food
 - [ ] Add virus
-- [ ] Bubble chat
+- [ ] Bubble Chat
 - [ ] Ability to split
 - [ ] Skins
+- [x] Grid
+- [x] Colored Food
+- [ ] Colored Cells
 - More coming soon...
 
 
