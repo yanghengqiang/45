@@ -7,6 +7,13 @@ This document will help you understand the project architecture, what's in the s
 - Socket.IO
 - Express
 
+# Architecture
+![Server architecture](http://i.imgur.com/Zw561RV.png)
+
+Our game running on **NodeJS** environment, using **Socket.IO** to create a WebSocket server listening on port **3000** (by default).
+
+We also have **ExpressJS** for severing a simple HTTP service that display the file called `index.html`. In this HTML file, we put the HTML Canvas element to rendering the game and some client side Javascript to coummunicate with our WebSocket server.
+
 # Project structure
 This project has 3 parts:
 - Configure files (bower.json, package.json,...)
@@ -62,4 +69,4 @@ That's why we changed to a new (current) way: When a player connected to the gam
 
 # Client-Server communication
 
-<TBD>
+TBD...
