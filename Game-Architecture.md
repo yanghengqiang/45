@@ -88,3 +88,8 @@ We have 3 types of communication when the game started: **Game Logic**, **Chat**
 #### Game Logic
 #### Chat
 #### Ping (check latency)
+Every game has `-ping` command to check the latency of a connection to server. It's very easy to implement this latency checking command:
+
+![](http://i.imgur.com/epBau83.png)
+
+At the beginning of the check, we save the start time. Then send a message to server, let's call it: **ping**. When the server receives **ping** message, it will reply back with **pong** message. And when the **pong** arrived client side, we will calculate the distance between start time and end time. That's our ping!
