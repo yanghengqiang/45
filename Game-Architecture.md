@@ -69,4 +69,14 @@ That's why we changed to a new (current) way: When a player connected to the gam
 
 # Client-Server communication
 
-TBD...
+The communication between Client and Server can be separated into 2 stages: **Authentication** and **In-Game Communication**
+
+### Authentication
+
+![](http://i.imgur.com/q0WWIxt.png)
+ 
+When a player connects, a popup will display to ask him enter his name. Then, new socket connection will open. The server receives new connection and accept it with `welcome` message, attached with a `UserID` of this client.
+
+When a client receives `welcome` message, it will reply back with `gotit` message, attached with the `Player's name`. 
+
+When server receives `gotit`, it will broadcast to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every players who has connected to the game will receives this message and update their player list (draw new enemy on screen,...)
