@@ -80,3 +80,10 @@ When a player connects, a popup will display to ask him enter his name. Then, ne
 When a client receives `welcome` message, it will reply back with `gotit` message, attached with the `Player's name`. 
 
 When server receives `gotit`, it will broadcast to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every players who has connected to the game will receives this message and update their player list (draw new enemy on screen,...)
+
+Then, the game start!
+
+### In-Game Communication
+#### Game Logic
+#### Chat
+#### Ping
