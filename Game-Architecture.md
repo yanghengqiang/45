@@ -84,6 +84,7 @@ When server receives `gotit`, it will broadcast to every connected player (excep
 Then, the game start!
 
 ### In-Game Communication
+We have 3 types of communication when the game started: **Game Logic**, **Chat** and **Ping** (check latency)
 #### Game Logic
 #### Chat
-#### Ping
+#### Ping (check latency)
