@@ -10,31 +10,31 @@ This document will help you understand the project architecture, what's in the s
 # Architecture
 ![Server architecture](http://i.imgur.com/Zw561RV.png)
 
-Our game running on **NodeJS** environment, using **Socket.IO** to create a WebSocket server listening on port **3000** (by default).
+The game runs on a **NodeJS** environment using **Socket.IO** to create a WebSocket server listening on port **3000** (by default).
 
-We also have **ExpressJS** for severing a simple HTTP service that display the file called `index.html`. In this HTML file, we put the HTML Canvas element to rendering the game and some client side Javascript to coummunicate with our WebSocket server.
+There's also a **ExpressJS** setup serving a simple HTTP service that displays `index.html`, which has the Canvas element used to render the game and some client side Javascript to coummunicate with the WebSocket server.
 
-# Project structure
-This project has 3 parts:
-- Configure files (bower.json, package.json,...)
-- Client
-- Server
+# Project Structure
+This project has 3 main parts:
+- Config files (bower.json, package.json, etc.)
+- Client side
+- Server side
 
-The configures file contains the libraries, packages that needed for the game to run. You can install all the dependencies with the command:
+The config files list the libraries, packages, etc. that are needed for the game to run. You can install all the dependencies with the following command:
 
 ```
 npm install
 ```
 
-It will install all the libraries defined in `package.json`, and `bower.json`
+It will install all the libraries listed in `package.json` and `bower.json`
 
-### Game client
+### Game Client
 
-The client folder contains the code for game client. It's just a simple HTML file that create a `canvas` for rendering the game and some HTML elements for the chatbox.
+The client folder contains the code used in the game client. It's just a simple HTML file that creates a `canvas` to render the game and some HTML elements for the chatbox.
 
-The game client logic are in `js/app.js` file. It contains the functions to render the game, check ping/latency, toogle dark mode, send chat messages, process game input, and some `socket` event listener to communicate with server.
+The game client logic inside `js/app.js`. It contains the functions to render the game, check ping/latency, toogle dark mode, send chat messages, process game input, and some `socket` event listener to communicate with the server.
 
-No game logic are processed from client side. The only thing related to gameplay on client side is process game input (send mouse position to server)
+No game logic are processed from client side. The only thing related to gameplay on the client side is processing game input (send mouse position to server).
 
 The rendering loop of the game uses `requestAnimationFrame` instead of `setInterval`, and this gives the canvas a better drawing performance.
 
@@ -55,51 +55,51 @@ setInterval(gameLoop, 100);
 
 and see the crappy lag :trollface: 
 
-### Game server
+### Game Server
 
-The server code in `server/server.js` file contains all the config/information and functions related to game logic such as: food's mass, movement speed, minimum mass distance to be able to eat, random color, hit test, process player movement... 
+The server code at `server/server.js` contains all the config/information and functions related to the game logic such as: food's mass, movement speed, minimum mass difference to be able to eat, random color, hit test, process player movement, etc.
 
-All the game logic are processed on server side. The communication between server and client will be explained in the next section.
+All the game logic is processed on the server side. The communication between server and client will be explained in the following section.
 
-On server side, we handle the player list in `users` array and the food list in `foods` array. We also have a `sockets` array to store all the socket connection from connected players.
+The player list is handled in the server side, inside the `users` array. The food list is inside the `foods` array. There's also a `sockets` array to store all the socket connections from connected players.
 
-Initially, we run a simple loop with `setInterval` on server side to spawn food randomly every second, but running a looop on server side is a bad idea, it slow the server down dramatically and causing lag on client side even there are only 2 players connected! 
+Initially, a simple loop is ran with a `setInterval` on server side to spawn food randomly every second, but running a loop on the server side is a bad idea, as it slows the server down dramatically and causes lag on the client side even if there are only 2 players connected. 
 
-That's why we changed to a new (current) way: When a player connected to the game, server will spawn **30** random foods, this number can be changed by `newFoodPerPlayer` variable. And when a player eat a food, there will be **1** new food spawned, this number configured in `respawnFoodPerPlayer` variable. But if the total number of foods in game arena larger than **50** (see `maxFoodCount`), the server will stop serving foods.
+That's why we changed to a new (current) way: When a player connects to the game, the server will spawn **30** new random foods, (note this number can be changed at the `newFoodPerPlayer` variable). And when a player eats a food, **1** new food will be spawned, this number can be changed at the `respawnFoodPerPlayer` variable. If the total number of foods in the game arena is higher than **50** (see `maxFoodCount`), the server will stop serving new foods.
 
-# Client-Server communication
+# Client-Server Communication
 
-The communication between Client and Server can be separated into 2 stages: **Authentication** and **In-Game Communication**
+The communication between the Client and the Server sides can be separated into 2 stages: **Authentication** and **In-Game Communication**
 
 ### Authentication
 
 ![](http://i.imgur.com/q0WWIxt.png)
  
-When a player connects, a popup will display to ask him enter his name. Then, new socket connection will open. The server receives new connection and accept it with `welcome` message, attached with a `UserID` of this client.
+When a new player connects, a popup will be shown asking their name. Then, a new socket connection will be opened. The server receives this new connection and accept it with `welcome` message, attached with the `UserID` of this client.
 
-When a client receives `welcome` message, it will reply back with `gotit` message, attached with the `Player's name`. 
+When the client receives that `welcome` message, it will reply with a `gotit` message, attached with the `Player's name`. 
 
-When server receives `gotit`, it will broadcast to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every players who has connected to the game will receives this message and update their player list (draw new enemy on screen,...)
+When the server receives that `gotit`, it will broadcast it back to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every players who has connected to the game will receives this message and update their player list (draw new enemy on screen, etc.)
 
-Then, the game start!
+Then, the game starts!
 
 ### In-Game Communication
-We have 3 types of communication when the game started: **Game Logic**, **Chat** and **Ping** (check latency)
+There are 3 types of communication once the game is started: **Game Logic**, **Chat** and **Ping** (check latency)
 #### Game Logic
-(TBD...) 
+[TBD] 
 
 #### Chat
-We implemented chat using the below diagram:
+Chat is implemented using the following diagram:
 
 ![](http://i.imgur.com/dbBc8Nc.png)
 
-When a player enter new message and press Enter. New message will be sent to server with **playerChat** message. Server receives new chat message and broadcast to other players with **serverSendPlayerChat** message. 
+When a player sends a new message and press enter, a new message will be sent to the server as a **playerChat** message. The server then receives that message and broadcasts it to the other players with **serverSendPlayerChat**. 
 
-Every players when received the **serverSendPlayerChat** message will parse the chat message and put them to their chatbox.
+When a player receives the **serverSendPlayerChat** message, it will parse the chat message and put it into their chatbox.
 
-#### Ping (check latency)
+#### Ping (Latency)
 Every game has `-ping` command to check the latency of a connection to server. It's very easy to implement this latency checking command:
 
 ![](http://i.imgur.com/epBau83.png)
 
-At the beginning of the check, we save the start time. Then send a message to server, let's call it: **ping**. When the server receives **ping** message, it will reply back with **pong** message. And when the **pong** arrived client side, we will calculate the distance between start time and end time. That's our ping!
+At the beginning of the check, we save the start time. Then send a message to server, let's call it **ping**. When the server receives that **ping** message, it will reply back with a **pong** message. And when the **pong** arrives the client side, we can calculate the difference between the start time and end time. As simple as that!
