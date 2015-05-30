@@ -86,7 +86,17 @@ Then, the game start!
 ### In-Game Communication
 We have 3 types of communication when the game started: **Game Logic**, **Chat** and **Ping** (check latency)
 #### Game Logic
+(TBD...) 
+
 #### Chat
+We implemented chat using the below diagram:
+
+![](http://i.imgur.com/dbBc8Nc.png)
+
+When a player enter new message and press Enter. New message will be sent to server with **playerChat** message. Server receives new chat message and broadcast to other players with **serverSendPlayerChat** message. 
+
+Every players when received the **serverSendPlayerChat** message will parse the chat message and put them to their chatbox.
+
 #### Ping (check latency)
 Every game has `-ping` command to check the latency of a connection to server. It's very easy to implement this latency checking command:
 
