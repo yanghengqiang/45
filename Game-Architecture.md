@@ -126,4 +126,4 @@ At the beginning of the check, we save the start time. Then send a message to se
 
 ***
 
-I hope this document will help you understand more about the project. From now, you are able continue develop more awesome features for the game, or make your own online games. The wiki are always open, don't forget to share your knowledge during development.
+I hope this document will help you understand more about the project. From now, you are able to continue develop more awesome features for the game, or make your own online games. The wiki are always open, don't forget to share your knowledge during development.
