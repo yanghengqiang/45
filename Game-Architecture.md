@@ -99,7 +99,7 @@ During player's movement, server also checks for **Eating foods** and **Eating e
 ##### Eating foods
 ![](http://i.imgur.com/anwUrKV.png)
 
-If a player hits a food. Server will increases this player's mass and delete the eaten food. Spawn new foods. Everything will be done in the `users` and `foods` array from server side. Then, it will reply back to all players with two messages **serverUpdateAllPlayers** and **serverUpdateAllFoods**.
+If a player hits a food. Server will increases this player's mass and deletes the eaten food. Spawn new foods. Everything will be done in the `users` and `foods` array from server side. Then, it will reply back to all players with two messages **serverUpdateAllPlayers** and **serverUpdateAllFoods**.
 
 ##### Eating each others
 ![](http://i.imgur.com/jdLOr9T.png)
