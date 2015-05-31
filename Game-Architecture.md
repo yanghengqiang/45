@@ -86,7 +86,27 @@ Then, the game starts!
 ### In-Game Communication
 There are 3 types of communication once the game is started: **Game Logic**, **Chat** and **Ping** (check latency)
 #### Game Logic
-[TBD] 
+We designed the game logic based on Player's behaviours. Basically, we have 3 behaviours of a player: **Movement**, **Eating foods** and **Eating each others**.
+
+All the game logic should be processed on server side, and only return the result to client.
+
+##### Movement
+![](http://i.imgur.com/XUMm9EC.png)
+
+When a player wants to move, he moves his mouse to the new location. The client will send **playerSendTarget** message attached with this new location to server. Then, the server receives that message and process the player's movement on its side. When it done, it reply back to this client with the message **serverTellPlayerMove**, and send message **serverUpdateAllPlayers** to the others at the same time to update everyone's location on their side.
+
+During player's movement, server also checks for **Eating foods** and **Eating each others** behaviours
+##### Eating foods
+![](http://i.imgur.com/anwUrKV.png)
+
+If a player hits a food. Server will increases this player's mass and delete the eaten food. Spawn new foods. Everything will be done in the `users` and `foods` array from server side. Then, it will reply back to all players with two messages **serverUpdateAllPlayers** and **serverUpdateAllFoods**.
+
+##### Eating each others
+![](http://i.imgur.com/jdLOr9T.png)
+
+If a player hits somebody. Server will compares his **mass** (including **eatableMassDistance**) with that enemy's **mass**. And if the enemy's mass is greater, the player will die.
+
+Server will send to him the **RIP** message and close his connection. Delete him from `users` array and send this array to other players via **serverUpdateAllPlayers** message.
 
 #### Chat
 Chat is implemented using the following diagram:
@@ -103,3 +123,7 @@ Every game has `-ping` command to check the latency of a connection to server. I
 ![](http://i.imgur.com/epBau83.png)
 
 At the beginning of the check, we save the start time. Then send a message to server, let's call it **ping**. When the server receives that **ping** message, it will reply back with a **pong** message. And when the **pong** arrives the client side, we can calculate the difference between the start time and end time. As simple as that!
+
+***
+
+I hope this document will help you understand more about the project. From now, you are able continue develop more awesome features for the game, or make your own online games. The wiki are always open, don't forget to share your knowledge during development.
