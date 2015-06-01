@@ -5,7 +5,7 @@ Please help if you can
 - [ ] Bubble Chat
 - [ ] Ability to split
 - [ ] Skins
-- [ ] Colored Cells
+- [x] Colored Cells
 - [x] Grid
 - [x] Colored Food
 - [ ] Menu
