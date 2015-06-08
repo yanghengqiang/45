@@ -22,6 +22,12 @@ Your server should be listening to port 3000 by default.  You can change any of 
 ### Bluemix Installation
 This assumes you've already signed up for a [IBM Bluemix](http://ibm.biz/bluemixsg) and [IBM Bluemix DevOps Services](https://hub.jazz.net) account.
 
+Click the "Deploy to Bluemix button below.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
+
+-or-
+
  1. Clone the project to your own github repository.
  2. Go to [IBM Bluemix DevOps Services](https://hub.jazz.net/) and [Create a Project](https://hub.jazz.net/create).
  3. Name your project and link to your cloned repository.
