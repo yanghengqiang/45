@@ -39,7 +39,7 @@ This assumes you've already signed up for a [IBM Bluemix](http://ibm.biz/bluemix
       host: agar-clone
       domain: mybluemix.net
       command: node server/server.js
-      timeout: 800
+      timeout: 180
       env:
         env_type: production
     ```
