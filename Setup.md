@@ -24,7 +24,7 @@ This assumes you've already signed up for a [IBM Bluemix](http://ibm.biz/bluemix
 
 Click the "Deploy to Bluemix button below.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/huytd/agar.io-clone/agar-io-clone.git)
 
 -or-
 
