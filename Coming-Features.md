@@ -5,8 +5,7 @@ Please help if you can
 - [ ] Bubble chat
 - [ ] Ability to split
 - [ ] Skins
-- [ ] Respawning
 - [ ] Menu
+- [ ] Leaderboard
 - More coming soon...
-
 
