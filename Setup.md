@@ -4,6 +4,10 @@ Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
    ```
    git clone https://github.com/huytd/agar.io-clone
    ```
+ - Navigate into the directory you just cloned the repository into:
+   ```
+   cd agar.io-clone
+   ```
  - Install gulp globally (may require root privileges):
    ```
    npm install -g gulp
