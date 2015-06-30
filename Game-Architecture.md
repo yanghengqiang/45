@@ -50,7 +50,7 @@ To compare, you can change the code block:
 to
 
 ```
-setInterval(gameLoop, 100);
+setInterval(gameLoop, 16);
 ```
 
 and see the crappy lag :trollface: 
