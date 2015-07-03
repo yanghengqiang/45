@@ -32,7 +32,7 @@ It will install all the libraries listed in `package.json` and `bower.json`
 
 The client folder contains the code used in the game client. It's just a simple HTML file that creates a `canvas` to render the game and some HTML elements for the chatbox.
 
-The game client logic inside `js/app.js`. It contains the functions to render the game, check ping/latency, toogle dark mode, send chat messages, process game input, and some `socket` event listener to communicate with the server.
+The game client logic inside `js/app.js`. It contains the functions to render the game, check ping/latency, toggle dark mode, send chat messages, process game input, and some `socket` event listener to communicate with the server.
 
 No game logic are processed from client side. The only thing related to gameplay on the client side is processing game input (send mouse position to server).
 
