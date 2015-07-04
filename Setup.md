@@ -12,6 +12,8 @@ Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
    ```
    npm install -g gulp
    ```
+ - run apt-get install nodejs-legacy
+ 
  - Install the application dependencies:
    ```
    npm install
