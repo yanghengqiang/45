@@ -2,7 +2,7 @@
 Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
  - Get a fresh clone of the repository:
    ```
-   git clone https://github.com/huytd/agar.io-clone
+   git clone https://github.com/huytd/agar.io-clone.git
    ```
  - Navigate into the directory you just cloned the repository into:
    ```
@@ -25,7 +25,7 @@ Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
    gulp run
    ```
 
-Your server should be listening to port 3000 by default.  You can change any of the default parameters by editing the `server/config.yml` file.
+Your server should be listening to port 3000 by default.  You can change any of the default parameters by editing the `server/config.json` file.
 
 ### Bluemix Installation
 This assumes you've already signed up for a [IBM Bluemix](http://ibm.biz/bluemixsg) and [IBM Bluemix DevOps Services](https://hub.jazz.net) account.
