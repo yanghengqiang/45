@@ -1,0 +1,8 @@
+[![Heroku1 EU](https://img.shields.io/badge/heroku1 eu-broken-red.svg)](https://agar-clone.herokuapp.com/) 
+[![Heroku1 US](https://img.shields.io/badge/heroku1 us-broken-red.svg)](https://agar-clone-us.herokuapp.com/)
+[![Heroku2 US](https://img.shields.io/badge/heroku2 us-online-green.svg)](https://agario-clone-us.herokuapp.com/)
+[![Bluemix US](http://img.shields.io/badge/bluemix us-online-green.svg)](http://agar-clone.mybluemix.net/)
+[![Bluemix EU](http://img.shields.io/badge/bluemix eu-online-green.svg)](http://agar-clone.eu-gb.mybluemix.net/)
+[![TS3Bahu](https://img.shields.io/badge/TS3Bahu-online-green.svg)](http://agar.ts3bahu.com:3000)
+[![Agarose](https://img.shields.io/badge/agarose-online-green.svg)](http://agarose.io/)
+[![RMH](https://img.shields.io/badge/RMH-online-green.svg)](http://bubble.ratemyhack.com/)
