@@ -4,10 +4,10 @@ Note: Heroku servers may appear to be down if they are sleeping. If the page doe
 
 [![Heroku | US1](https://img.shields.io/badge/heroku us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
 [![Heroku | EU1](https://img.shields.io/badge/heroku eu1-online-green.svg)](https://agar-clone.herokuapp.com/)
-[![Heroku | US2](https://img.shields.io/badge/heroku us2-online-green.svg)](https://agario-clone-us.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku agasio-online-green.svg)](https://agasio.herokuapp.com/)
 
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
+[![Heroku | US2](https://img.shields.io/badge/heroku us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
 
 [![Bluemix | US1](https://img.shields.io/badge/bluemix us1-broken-red.svg)](http://agar-clone.mybluemix.net/)
 [![Bluemix | EU1](https://img.shields.io/badge/bluemix eu1-broken-red.svg)](http://agar-clone.eu-gb.mybluemix.net/)
