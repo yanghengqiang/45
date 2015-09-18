@@ -7,7 +7,8 @@ Note: Heroku servers may appear to be down if they are sleeping. If the page doe
 [![Heroku | US2](https://img.shields.io/badge/heroku us2-online-green.svg)](https://agario-clone-us.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku agasio-online-green.svg)](https://agasio.herokuapp.com/)
 
-[![Bluemix US](https://img.shields.io/badge/bluemix us-broken-red.svg)](http://agar-clone.mybluemix.net/)
-[![Bluemix EU](https://img.shields.io/badge/bluemix eu-broken-red.svg)](http://agar-clone.eu-gb.mybluemix.net/)
-[![TS3Bahu](https://img.shields.io/badge/TS3Bahu-gone-red.svg)](http://agar.ts3bahu.com:3000)
-[![panpawn](https://img.shields.io/badge/panpawn-expired-red.svg)](http://ps-agar-panpawn1.c9.io)
+[![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
+
+[![Bluemix | US1](https://img.shields.io/badge/bluemix us1-broken-red.svg)](http://agar-clone.mybluemix.net/)
+[![Bluemix | EU1](https://img.shields.io/badge/bluemix eu1-broken-red.svg)](http://agar-clone.eu-gb.mybluemix.net/)
+[![TS3Bahu](https://img.shields.io/badge/TS3Bahu-dead-red.svg)](http://agar.ts3bahu.com:3000)
