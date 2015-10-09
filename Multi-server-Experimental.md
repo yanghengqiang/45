@@ -14,6 +14,7 @@ We're running the cluster with 4 instances of `Agar.IO Server` and 1 `Redis` ser
 
 The communication between instances now using Redis's `Publish` and `Subscribe`
 
+```
 ======================================================
 |                       REDIS                        |
 ======================================================
@@ -21,6 +22,7 @@ The communication between instances now using Redis's `Publish` and `Subscribe`
 ||                ||                ||              ||
 ||                ||                ||              ||     
 Server #1       Server #2        Server #3       Server #4
+```
 
 By doing this, we can run multiple servers from multiple location but still able to share the data (foods, players, chat messages,...) between them.
 
