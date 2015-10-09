@@ -35,10 +35,10 @@ By doing this, we can run multiple servers from multiple location but still able
 - Checkout the `multi-server` branch
 - Run the server cluster with: `npm run cluster`
 
-The cluster will start up with 4 server running on http://localhost:3000, http://localhost:3001, http://localhost:3002, and http://localhost:3003
+The cluster will start up with 4 server running on [http://localhost:3000](http://localhost:3000), [http://localhost:3001](http://localhost:3001), [http://localhost:3002](http://localhost:3002), and [http://localhost:3003](http://localhost:3003)
 
 **Step 3: Test multi server function**
-- Go to server #1: http://localhost:3000, login with any name you want
-- Go to server #2: http://localhost:3001, login with any name you want
+- Go to server #1: [http://localhost:3000](http://localhost:3000), login with any name you want
+- Go to server #2: [http://localhost:3001](http://localhost:3001), login with any name you want
 - In any client, leave some chat message
 - Go to another client to see the message displayed!
