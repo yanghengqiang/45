@@ -5,7 +5,7 @@ Note: Heroku servers may appear to be down if they are sleeping. If the page doe
 [![Heroku | US1](https://img.shields.io/badge/heroku us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
 [![Heroku | EU1](https://img.shields.io/badge/heroku eu1-online-green.svg)](https://agar-clone.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku agasio-online-green.svg)](https://agasio.herokuapp.com/)
-[![Heroku | IoGar (Social)](https://img.shields.io/badge/heroku us1-online-green.svg)](https://iogar.herokuapp.com/)
+[![Heroku | IoGar Social](https://img.shields.io/badge/heroku us1-online-green.svg)](https://iogar.herokuapp.com/)
 
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
 [![Heroku | US2](https://img.shields.io/badge/heroku us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
