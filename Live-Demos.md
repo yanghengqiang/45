@@ -12,7 +12,3 @@ Note: Heroku servers may appear to be down if they are sleeping. If the page doe
 
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
 [![Heroku | US2](https://img.shields.io/badge/heroku us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
-
-[![Bluemix | US1](https://img.shields.io/badge/bluemix us1-broken-red.svg)](http://agar-clone.mybluemix.net/)
-[![Bluemix | EU1](https://img.shields.io/badge/bluemix eu1-broken-red.svg)](http://agar-clone.eu-gb.mybluemix.net/)
-[![TS3Bahu](https://img.shields.io/badge/TS3Bahu-dead-red.svg)](http://agar.ts3bahu.com:3000)
