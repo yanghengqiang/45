@@ -2,9 +2,9 @@ Updated December 24, 2015
 
 Note: Heroku servers may appear to be down if they are sleeping. If the page does not load, try again in a minute.
 
-[![Cell Warfare](https://img.shields.io/badge/Cell%20Warfare-online-blue.svg)](http://sys14257.leet.cc/)
-[![Osmosis](https://img.shields.io/badge/Osmosis-online-blue.svg)](http://sys35537.leet.cc/)
 
+[![Cell Warfare](https://img.shields.io/badge/Cell%20Warfare-online-green.svg)](http://sys14257.leet.cc/)
+[![Osmosis](https://img.shields.io/badge/Osmosis-online-green.svg)](http://sys35537.leet.cc/)
 [![Heroku | US1](https://img.shields.io/badge/heroku us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
 [![Heroku | EU1](https://img.shields.io/badge/heroku eu1-online-green.svg)](https://agar-clone.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku agasio-online-green.svg)](https://agasio.herokuapp.com/)
