@@ -1,5 +1,9 @@
 ### Launching from a new server
-Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
+
+Requirements:
+- Ensure you have [NodeJS](https://nodejs.org/) installed on your machine.
+
+Installation:
  - Get a fresh clone of the repository:
    ```
    git clone https://github.com/huytd/agar.io-clone.git
@@ -25,16 +29,16 @@ Make sure you have [NodeJS](https://nodejs.org/) installed on your machine.
    gulp run
    ```
 
-Your server should be listening to port 3000 by default.  You can change any of the default parameters by editing the `server/config.json` file.
+Your server should be listening to port 3000 by default.  You can change any of the default parameters by editing the `config.json` file.
 
 ### Bluemix Installation
 This assumes you've already signed up for a [IBM Bluemix](http://ibm.biz/bluemixsg) and [IBM Bluemix DevOps Services](https://hub.jazz.net) account.
 
-Click the "Deploy to Bluemix button below.
+Click the "Deploy to Bluemix" button below.
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/huytd/agar.io-clone/agar-io-clone.git)
 
--or-
+Or...
 
  1. Clone the project to your own github repository.
  2. Go to [IBM Bluemix DevOps Services](https://hub.jazz.net/) and [Create a Project](https://hub.jazz.net/create).
@@ -60,7 +64,7 @@ Click the "Deploy to Bluemix button below.
  7. Create a new launch configuration.
  8. Deploy your application and it will create a new instance on your [IBM Bluemix](http://ibm.biz/bluemixsg) account.
 
-**OR**
+Or...
 
 1. Go to [agar-io-clone on IBM Bluemix DevOps Services](https://hub.jazz.net/project/justinlee/agar-io-clone).
 2. Click on "Edit Code". This will clone a new repository to your account.
