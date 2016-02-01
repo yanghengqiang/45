@@ -14,6 +14,3 @@ Heroku:
 
 Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
-
-Githubs:
-[![Githubs| apps](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://apps.githubs.cn/agar)
