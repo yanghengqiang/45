@@ -3,7 +3,7 @@ Note: Heroku servers may appear to be down if they are sleeping. If the page doe
 
 LEET Hosting:
 [![Cell Warfare](https://img.shields.io/badge/Cell%20Warfare-online-green.svg)](http://sys14257.leet.cc/)
-[![Osmosis](https://img.shields.io/badge/Osmosis-online-green.svg)](http://sys35537.leet.cc/)
+[![Osmosis](https://img.shields.io/badge/Osmosis-online-green.svg)](http://sys70271.leet.cc:3000/)
 
 Heroku:
 [![Heroku | US1](https://img.shields.io/badge/heroku us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
