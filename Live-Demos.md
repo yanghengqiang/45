@@ -14,3 +14,6 @@ Heroku:
 
 Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
+
+DigitalOcean:
+[![DigitalOcean | New York](https://img.shields.io/badge/Digital Ocean Droplet-online-green.svg)](https://texster.tk:3000)
