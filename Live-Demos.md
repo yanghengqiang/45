@@ -2,8 +2,8 @@ These are a list of live demonstratation servers which are running this software
 Note: Heroku servers may appear to be down if they are sleeping. If the page does not load, try again in a minute.
 
 LEET Hosting:
-[![Cell Warfare](https://img.shields.io/badge/Cell%20Warfare-online-green.svg)](http://sys14257.leet.cc/)
-[![Osmosis](https://img.shields.io/badge/Osmosis-online-green.svg)](http://sys53310.leet.cc:3000/)
+[![Cell Warfare](https://img.shields.io/badge/Cell%20Warfare-outdated-yellow.svg)](http://sys14257.leet.cc/)
+[![Osmosis](https://img.shields.io/badge/Osmosis-outdated-yellow.svg)](http://sys53310.leet.cc:3000/)
 
 Heroku:
 [![Heroku | US1](https://img.shields.io/badge/heroku us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
@@ -16,4 +16,4 @@ Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
 
 DigitalOcean:
-[![DigitalOcean | New York](https://img.shields.io/badge/Digital Ocean Droplet-online-green.svg)](http://texster.tk:3000)
+[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD DO Droplet NY-online-green.svg)](http://texster.tk)
