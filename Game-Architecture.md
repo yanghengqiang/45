@@ -79,16 +79,16 @@ When a new player connects, a popup will be shown asking their name. Then, a new
 
 When the client receives that `welcome` message, it will reply with a `gotit` message, attached with the `Player's name`. 
 
-When the server receives that `gotit`, it will broadcast it back to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every players who has connected to the game will receives this message and update their player list (draw new enemy on screen, etc.)
+When the server receives that `gotit`, it will broadcast it back to every connected player (except the current player) that someone has joined the game with `playerJoin` message. Every player who has connected to the game will receive this message and update their player list (draw new enemy on screen, etc.)
 
 Then, the game starts!
 
 ### In-Game Communication
 There are 3 types of communication once the game is started: **Game Logic**, **Chat** and **Ping** (check latency)
 #### Game Logic
-We designed the game logic based on Player's behaviours. Basically, we have 3 behaviours of a player: **Movement**, **Eating foods** and **Eating each others**.
+We designed the game logic based on Players' behaviours. Basically, we have 3 behaviours of a player: **Moving**, **Eating foods** and **Eating other players**.
 
-All the game logic should be processed on server side, and only return the result to client.
+All the game logic should be processed on the server side, and only return the visible results to the client.
 
 ##### Movement
 ![](http://i.imgur.com/XUMm9EC.png)
@@ -96,6 +96,7 @@ All the game logic should be processed on server side, and only return the resul
 When a player wants to move, he moves his mouse to the new location. The client will send **playerSendTarget** message attached with this new location to server. Then, the server receives that message and process the player's movement on its side. When it done, it reply back to this client with the message **serverTellPlayerMove**, and send message **serverUpdateAllPlayers** to the others at the same time to update everyone's location on their side.
 
 During player's movement, server also checks for **Eating foods** and **Eating each others** behaviours
+
 ##### Eating foods
 ![](http://i.imgur.com/anwUrKV.png)
 
