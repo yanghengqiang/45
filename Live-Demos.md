@@ -11,6 +11,7 @@ Heroku:
 [![Heroku | Agasio](https://img.shields.io/badge/heroku agasio-online-green.svg)](https://agasio.herokuapp.com/)
 [![Heroku | IoGar Social](https://img.shields.io/badge/iogar-online-green.svg)](https://iogar.herokuapp.com/)
 [![Heroku | US2](https://img.shields.io/badge/heroku us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
+[![Heroku | RPColor (gamemode)](https://img.shields.io/badge/RPColor(Agario%20mode)-online-green.svg)](https://atrue.herokuapp.com/)
 
 Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
