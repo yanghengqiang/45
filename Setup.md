@@ -16,10 +16,6 @@ Installation:
    ```
    npm install -g gulp
    ```
- - Install nodejs-legacy
-   ```
-   apt-get install nodejs-legacy
-   ```
  - Install the application dependencies:
    ```
    npm install
