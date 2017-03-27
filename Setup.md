@@ -73,3 +73,4 @@ Or...
 4. Click on Deploy.
 5. Wait until two purple buttons appear on the bottom of the page.
 6. Click on "manage" and it's deployed !
+7. Now, you can play on your server by clicking on "view my app" you can also copy the URL and send it to your friends !!!
