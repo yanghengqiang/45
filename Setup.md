@@ -67,4 +67,9 @@ Or...
 3. Follow steps 5-7 from above.
 
 ### Heroku Installation
-**TODO**
+1. Create a Heroku account on [this page](https://id.heroku.com/login), when you created your account, go to step 2.
+2. Go to the [Heroku deploy page](https://heroku.com/deploy).
+3. You can now choose an app name and if you are in the United States or in Europe, you can leave United States
+4. Click on Deploy.
+5. Wait until two purple buttons appear on the bottom of the page.
+6. Click on "manage" and it's deployed !
