@@ -12,7 +12,8 @@ Heroku:
 [![Heroku | FFA-1](https://img.shields.io/badge/heroku FFA1-online-green.svg)](https://fstyle.herokuapp.com/)
 [![Heroku | IoGar Social](https://img.shields.io/badge/iogar-online-green.svg)](https://iogar.herokuapp.com/)
 [![Heroku | US2](https://img.shields.io/badge/heroku us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
-[![Heroku | RPColor (gamemode)](https://img.shields.io/badge/RPColor(Agario%20mode)-online-green.svg)](https://atrue.herokuapp.com/)
+[![Heroku | RPColor (gamemode)](https://img.shields.io/badge/RPColor(Agario%20mode)-online-green.svg)](https://atrue.herokuapp.com/) 
+[![Heroku | Cells.ga](https://img.shields.io/badge/Cells.ga-online-green.svg)](http://cells.ga/)
 
 Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
