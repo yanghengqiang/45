@@ -19,4 +19,4 @@ Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix%20eggar-outdated-yellow.svg)](http://eggar.io/)
 
 DigitalOcean:
-[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD-DO-Droplet-NY-online-green.svg)](http://texster.tk)
+[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD-DO-Droplet%20NY-online-green.svg)](http://texster.tk)
