@@ -16,7 +16,7 @@ Heroku:
 [![Heroku | Cells.ga](https://img.shields.io/badge/Cells.ga-online-green.svg)](http://cells.ga/)
 
 Bluemix:
-[![Bluemix | Eggar](https://img.shields.io/badge/bluemix eggar-outdated-yellow.svg)](http://eggar.io/)
+[![Bluemix | Eggar](https://img.shields.io/badge/bluemix%20eggar-outdated-yellow.svg)](http://eggar.io/)
 
 DigitalOcean:
-[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD DO Droplet NY-online-green.svg)](http://texster.tk)
+[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD%20DO%20Droplet NY-online-green.svg)](http://texster.tk)
