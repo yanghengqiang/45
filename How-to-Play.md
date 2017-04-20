@@ -1,4 +1,4 @@
-You are the red circle in the center of the screen.  Use your mouse to point in the direction you want to move.
+You are the circle in the center of the screen.  Use your mouse to point in the direction you want to move. You can split yourself in half using spacebar.
 
 Your objective is to gain mass and grow larger by consuming food particles (small pentagons) and other players.  Other players are moving circles of various sizes.  You can only consume other players that are smaller than you, and larger players will consume you.  Be careful and survive as long as possible!
 
