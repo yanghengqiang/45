@@ -12,7 +12,7 @@ This document will help you understand the project architecture, what's in the s
 
 The game runs on a **NodeJS** environment using **Socket.IO** to create a WebSocket server listening on port **3000** (by default).
 
-There's also a **ExpressJS** setup serving a simple HTTP service that displays `index.html`, which has the Canvas element used to render the game and some client side Javascript to coummunicate with the WebSocket server.
+There's also a **ExpressJS** setup serving a simple HTTP service that displays `index.html`, which has the Canvas element used to render the game and some client side Javascript to communicate with the WebSocket server.
 
 # Project Structure
 This project has 3 main parts:
