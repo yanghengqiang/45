@@ -6,8 +6,8 @@ LEET Hosting:
 [![Osmosis](https://img.shields.io/badge/Osmosis-outdated-yellow.svg)](http://sys53310.leet.cc:3000/)
 
 Heroku:
-[![Heroku | US1](https://img.shields.io/badge/heroku%20us1-online-green.svg)](https://agar-clone-us.herokuapp.com/)
-[![Heroku | EU1](https://img.shields.io/badge/heroku%20eu1-online-green.svg)](https://agar-clone.herokuapp.com/)
+[![Heroku | US1](https://img.shields.io/badge/heroku%20us1-broken-red.svg)](https://agar-clone-us.herokuapp.com/)
+[![Heroku | EU1](https://img.shields.io/badge/heroku%20eu1-broken-red.svg)](https://agar-clone.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku%20agasio-online-green.svg)](https://agasio.herokuapp.com/)
 [![Heroku | FFA-1](https://img.shields.io/badge/heroku%20FFA1-online-green.svg)](https://fstyle.herokuapp.com/)
 [![Heroku | IoGar Social](https://img.shields.io/badge/iogar-online-green.svg)](https://iogar.herokuapp.com/)
@@ -19,4 +19,4 @@ Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix%20eggar-outdated-yellow.svg)](http://eggar.io/)
 
 DigitalOcean:
-[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD%20DO%20Droplet%20NY-online-green.svg)](http://texster.tk/)
+[![DigitalOcean | New York](https://img.shields.io/badge/InfekTD%20DO%20Droplet%20NY-outdated-yellow.svg)](http://texster.tk/)
