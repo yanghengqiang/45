@@ -14,9 +14,8 @@ Heroku:
 [![Heroku | US2](https://img.shields.io/badge/heroku%20us2-outdated-yellow.svg)](https://agario-clone-us.herokuapp.com/)
 [![Heroku | RPColor (gamemode)](https://img.shields.io/badge/RPColor(Agario%20mode)-online-green.svg)](https://atrue.herokuapp.com/) 
 [![Heroku | Cells.ga](https://img.shields.io/badge/Cells.ga-broken-red.svg)](http://cells.ga/)
-[![Heroku | Qula](https://img.shields.io/badge/Qulga-online-green)](http://qulga.herokuapp.com/)
-[![Heroku | Qula](https://img.shields.io/badge/Qulga-online-green)](http://qulga.herokuapp.com/)
-[![Heroku | Snowball Wars](https://img.shields.io/badge/Snowball%20Wars-online-green)](http://snowballwars.herokuapp.com/)
+[![Heroku | Qula](https://img.shields.io/badge/Qulga-online-green.svg)](http://qulga.herokuapp.com/)
+[![Heroku | Snowball Wars](https://img.shields.io/badge/Snowball%20Wars-online-green.svg)](http://snowballwars.herokuapp.com/)
 
 Bluemix:
 [![Bluemix | Eggar](https://img.shields.io/badge/bluemix%20eggar-broken-red.svg)](http://eggar.io/)
