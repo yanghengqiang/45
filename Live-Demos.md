@@ -7,7 +7,8 @@ LEET Hosting:
 
 Heroku:
 [![Heroku | US1](https://img.shields.io/badge/heroku%20us1-broken-red.svg)](https://agar-clone-us.herokuapp.com/)
-[![Heroku | EU1](https://img.shields.io/badge/heroku%20eu1-broken-red.svg)](https://agar-clone.herokuapp.com/)
+[![Heroku | EU1](https://img.shields.io/badge/heroku%20eu1-broken-red.svg)](https://cnein.herokuapp.com)
+[![Heroku | US1](https://img.shields.io/badge/heroku%20tank.net(use%20arrow%20keys%20to%20move%20and%20mouse%20to%20fire)-online-green.svg)](https://cnein.herokuapp.com/)
 [![Heroku | Agasio](https://img.shields.io/badge/heroku%20agasio-online-green.svg)](https://agasio.herokuapp.com/)
 [![Heroku | FFA-1](https://img.shields.io/badge/heroku%20FFA1-broken-red.svg)](https://fstyle.herokuapp.com/)
 [![Heroku | IoGar Social](https://img.shields.io/badge/iogar-online-green.svg)](https://iogar.herokuapp.com/)
